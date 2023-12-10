@@ -16,4 +16,7 @@ function getOddNumbersArray(numbers){
 
 const myNumbers = [12, 65, 45, 78, 32, 45, 91];
 const oddNumbers = getOddNumbersArray(myNumbers);
-console.log(oddNumbers);
+// console.log(oddNumbers);
+const myNumberIsOdd = getOddNumbersArray(oddNumbers);
+
+console.log('odd number sum', oddNumbers);
