@@ -27,13 +27,20 @@ function isEven(number){
     const remainder = number % 2;
     // console.log(remainder);
     if(remainder === 0){
-        console.log('number is even');
+        // console.log('number is even');
+        return true;
     }
     else{
-        console.log('number is odd')
+        // console.log('number is odd')
+        return false;
     }
 }
 
 // isEven(48);
-isEven(35);
-isEven(1280);
+// isEven(35);
+// isEven(1280);
+
+const myNumberIsEven = isEven(303);
+console.log(myNumberIsEven);
+const myNumberIsOdd = isEven(1280);
+console.log(myNumberIsOdd);
