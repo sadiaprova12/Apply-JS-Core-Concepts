@@ -1,6 +1,12 @@
 function getOddNumbersArray(numbers){
      for(let i = 0; i < numbers.length; i++){
-        console.log(i);
+        // console.log(i);
+        const index = i;
+        const element = numbers[index];
+        if(element % 2 === 0){
+            console.log(index, element);
+        }
+        
      }
 }
 
