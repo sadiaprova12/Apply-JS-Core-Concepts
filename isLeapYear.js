@@ -13,6 +13,6 @@ function isLeapYear(year){
 }
 
 const notLeapYear = isLeapYear(1933);
-console.log(notLeapYear);
+console.log('my year:', notLeapYear);
 const leapYear = isLeapYear(1960);
-console.log(leapYear);
+console.log('her year:', leapYear);
