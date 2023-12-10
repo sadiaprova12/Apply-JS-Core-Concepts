@@ -3,7 +3,7 @@ function getOddNumbersArray(numbers){
         // console.log(i);
         const index = i;
         const element = numbers[index];
-        if(element % 2 === 0){
+        if(element % 2 !== 0){
             console.log(index, element);
         }
         
