@@ -6,10 +6,10 @@
 
 
 /** Remainder even number */
-console.log(4%2);
-console.log(98%2);
-console.log(144%2);
-console.log(1286%2);
+// console.log(4%2);
+// console.log(98%2);
+// console.log(144%2);
+// console.log(1286%2);
 
 /** odd number */
 // console.log(7/2);
@@ -25,8 +25,15 @@ console.log(1286%2);
 
 function isEven(number){
     const remainder = number % 2;
-    console.log(remainder);
+    // console.log(remainder);
+    if(remainder === 0){
+        console.log('number is even');
+    }
+    else{
+        console.log('number is odd')
+    }
 }
 
 // isEven(48);
 isEven(35);
+isEven(1280);
