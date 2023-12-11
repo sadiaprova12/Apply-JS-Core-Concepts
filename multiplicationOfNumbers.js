@@ -2,6 +2,7 @@
 /** Factorial (1-4 porjontto multiplication bujhay)
  * 1.  3! = 3*2*1
  * 2.  4! = 4*3*2*1
+ *  Factorial formula: n! = n * (n-1)!
  */
 function multiplicationOfNumbers(number){
     let result = 1;
