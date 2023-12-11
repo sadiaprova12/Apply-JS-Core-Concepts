@@ -10,3 +10,4 @@ function multiplicationOfNumbers(number){
 }
 
 const result = multiplicationOfNumbers(7);
+console.log(result);
